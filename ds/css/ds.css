@@ -15,92 +15,42 @@ body
 	background-attachment: fixed;
 }
 
-header .backgr-black{
-    background-color: #1c1c1c;
+header .navbar-light{
+	background-color: #000000;
 }
 
-header a{
-    color: #a8a8a8;
-    margin-right: 60px;
+header #dslogo{
+	color:#bb0a1e;
 }
 
-.nav-link{
-    color: #a8a8a8;
+header .navbar-brand{
+	font-style: !important;
+	font-size: 25px;
+	font-weight: bold;
+	
 }
 
-.nav-link:hover{
-    color: #eeeeee;
+header #char, #br, #dict{
+	color: #ffffff;
 }
 
-.topmenu{
-	display: flex;
-	background: #000000;	
-	height: 80px;
-	width: 100%;
-	justify-content: flex-start;
-	text-align: center;
-	align-items: center;
-	padding: 40px 5%;
+header .nav-item{
+	font-style: oblique;
+	font-size: 18px;
 }
 
-.logo{
-	width: 5%;
-	height: 50px;
-}
-
-.menu a{
-	height: 100%;
-	display: inline-block;
-	padding: 10px 50px;
-}
-
-.menu a:hover {
-	color: #f8fc03;
-}
-
-
-.menu li{
-	display: inline;
-	float: left;
-	color: #fff;
-}
-
-.menu li a{
+header .nav-item a::after{
+	content: '';
 	display: block;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	font-style: italic;
-	font-weight: bold;
+	width: 100%;
+	background-color: #ffffff;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
 }
 
-.submenu{
-	display: none;
-}
-
-
-.menu ul li:hover .submenu{
-	display: inline-block;
-	position: absolute;
-	background: #000000;
-}
-
-.menu ul li:hover .sub-menu ul{
-	display: inline-block;
-	margin: 10px;
-}
-
-.home{
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	margin-left: auto;
-	font-style: italic;
-	font-weight: bold;
-}
-
-a:hover {
-	color: #f8fc03;
+header .nav-item a:hover::after{
+	transform: scale(1);
 }
 
 
