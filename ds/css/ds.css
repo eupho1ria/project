@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-size: cover;
+	font-family: sans-serif;
+	background: url(back/1.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+header .navbar-light{
+	background-color: #000000;
+}
+
+
+header #dslogo{
+	color:#bb0a1e;
+}
+
+header .navbar-brand{
+	font-style: !important;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+header #char, #br, #dict{
+	color: #ffffff;
+}
+
+header .nav-item{
+	font-style: oblique;
+	font-size: 18px;
+}
+
+header .nav-item a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #ffffff;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+	transform: scale(1);
+}
+
+
+
+.logo{
+	width: 10%;
+	height: 50%;
+	border-radius: 5px;
+}
+
+.slidik{
+	width: 1700px;
+	height: 700px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.article{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	margin-top: 100px;
+	width: 1000px;
+	height: 600px;
+	background-color: #383737;
+	border: 6px solid #000000;
+	border-radius: 10px;
+	justify-content: flex-start;
+}
+
+.container-fluid{
+	padding: 20px 20px;
+}
+
+.carousel-fade .carousel-item {
+	 opacity: 0;
+	 transition-duration: .8s;
+	 transition-property: opacity;
+}
+
+
+
+#title{
+	font-style: oblique;
+	text-align: center;
+	color: #fff;
+}
+#plot{
+	font-style: oblique;
+	text-align: left;
+	color: #fff;
+	padding: 10px 10px;
+	float: left;
+	font-size: 20px;
+}
+
+.preview{
+	width: 40%;
+	height: 500px;
+	float: right;
+	border-radius: 20px;
+	padding: 10px 10px;
+}
+
+.characters{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	margin-top: 100px;
+	width: 1000px;
+	height: 1500px;
+	background-color: #383737;
+	border: 6px solid #000000;
+	border-radius: 10px;
+}
+
+#character{
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#breathe{
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#dictionary{
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+
+h3{
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+.slayers{
+	display: flex;
+	width: 1000px;
+	height: 200px;
+	border-radius: 5px;
+	border: solid 5x #000000;
+	justify-content: center;
+
+}
+
+.frstline{
+	display: inline-flex;
+}
+
+.slayer_d{
+	width: 100%;
+	height: 200px;
+	padding: 20px 20px;
+	border-radius: 30px;
+	border: solid 5x #000000;
+	font-style: oblique;
+	text-align: left;
+	color: #fff;
+}
+
+.hashira{
+	display: flex;
+	width: 200px;
+	height: 300px;
+	border-radius: 5px;
+	border: solid 5x #000000;
+	justify-content: center;
+}
+
+.scndline{
+	display: inline-flex;
+}
+
+.pers{
+	height: 200px;
+	width: 200px;
+}
+
+.perstext{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: initial;
+}
+
+.breathes{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: initial;
+	text-align: left;
+}
+
+.dictions{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: initial;
+	text-align: left;
+}
+
+form{
+	padding: 50px 20px;
+}
+
+.hashira_d{
+	width: 100%;
+	height: 100px;
+	padding: 20px 20px;
+	border-radius: 30px;
+	border: solid 5x #000000;
+	font-style: oblique;
+	text-align: left;
+	color: #fff;
+}
+
+.demons{
+	display: flex;
+	width: 1000px;
+	height: 300px;
+	border-radius: 5px;
+	border: solid 5x #000000;
+	justify-content: center;
+}
+
+.thrdline{
+	display: inline-flex;
+}
+
+.demon_d{
+	width: 100%;
+	height: 100px;
+	padding: 20px 20px;
+	border-radius: 30px;
+	border: solid 5x #000000;
+	font-style: oblique;
+	text-align: left;
+	color: #fff;
+}
+
+
+.breathe{
+	width: 500px;
+	height: 300px;
+	font-style: oblique;
+	text-align: left;
+	color: #fff;
+	font-size: 20px;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
